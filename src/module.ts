@@ -3,8 +3,8 @@ import { defineNuxtModule, createResolver, addImportsDir } from '@nuxt/kit'
 
 export default defineNuxtModule({
   meta: {
-    name: 'my-module',
-    configKey: 'myModule'
+    name: 'nuxt-a11y',
+    configKey: 'a11y'
   },
   setup (options, nuxt) {
     if (!nuxt.options.dev) return;
