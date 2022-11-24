@@ -1,8 +1,17 @@
 {
-  "name": "my-module",
-  "version": "1.0.0",
+  "name": "nuxt-a11y",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/Baroshem/nuxt-a11y"
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "accessibility",
+    "a11y"
+  ],
   "exports": {
     ".": {
       "import": "./dist/module.mjs",
